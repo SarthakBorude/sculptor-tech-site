@@ -1,8 +1,8 @@
 import React from 'react';
 
-// FIX: Make sure this matches your actual file name 'nav.jsx'
-import Nav from './components/nav'; 
-import Hero from './components/Hero';     // Import the new Hero
+
+import Nav from './components/Nav'; 
+import Hero from './components/Hero';    
 import Services from './components/Services';
 import About from './components/About';
 import Clients from './components/Clients';
@@ -20,7 +20,7 @@ function App() {
       <EnquireBtn />
       
       <Chatbot />
-      {/* The new Hero component handles the #home ID now */}
+    
       <Hero />
 
       <Services />
@@ -33,12 +33,12 @@ function App() {
 
       <Gallery />
 
-      {/* Footer Placeholder (Optional, completes the page structure) */}
+    
       <footer className="bg-slate-950 text-slate-400 py-8 text-center">
         <p>© SRTKOriginals. 2025 </p>
       </footer>
 
-      {/* ... Add other sections as you build them */}
+    
     </div>
   );
 }

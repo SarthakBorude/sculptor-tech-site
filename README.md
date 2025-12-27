@@ -1,16 +1,49 @@
-# React + Vite
+# SculptorTech Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for the redesigned official website of **SculptorTech Pvt. Ltd.** The project focuses on a modern, high-performance user interface with smooth animations and a fully responsive layout.
 
-Currently, two official plugins are available:
+## 🛠️ Technology Stack Used
+* **Frontend Framework:** React.js (Vite)
+* **Styling:** Tailwind CSS (for responsive and utility-first styling)
+* **Icons:** Lucide React
+* **Animations:** GSAP (GreenSock) for the Masonry Gallery & CSS Transitions ( animations taken from reactbits.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Improvements Over the Existing Website
+1.  **Modern UI/UX Design:**
+    * Implemented a professional **Dark & Light visual rhythm** (Dark Services → Light About → Dark Clients) to improve readability and visual engagement.
+    * Added a "Glassmorphism" and "Neon Glow" aesthetic to key elements like the Services cards and Contact form.
 
-## React Compiler
+2.  **Advanced Interactivity:**
+    * **Masonry Gallery:** A dynamic, JavaScript-driven masonry layout for the gallery section (using GSAP) that organizes images of varying heights perfectly without gaps.
+    * **Client Carousel:** An interactive testimonial slider with manual controls and smooth transitions.
+    * **Floating "Enquire Now" Button:** A fixed, vertical call-to-action button that ensures high conversion rates.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3.  **Performance & Responsiveness:**
+    * Fully responsive Navbar with a mobile hamburger menu.
+    * Smooth scrolling navigation for a seamless single-page application (SPA) experience.
 
-## Expanding the ESLint configuration
+## 🤖 The Sculptor Assistant (Chatbot)
+This project features a custom-built **Floating Chat Widget** designed to enhance user support:
+* **Rule-Based Logic:** It automatically detects keywords (e.g., "price", "location", "contact") to provide instant answers to common queries.
+* **Realistic Simulation:** Features a "typing status" indicator and delayed responses to simulate a human-like interaction.
+* **UI/Design:** A collapsible widget that sits unobtrusively in the bottom-right corner, expanding into a full chat interface when needed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/sculptor-tech-site.git](https://github.com/YOUR_USERNAME/sculptor-tech-site.git)
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+*Submitted by Sarthak Borude*

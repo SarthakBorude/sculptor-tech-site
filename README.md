@@ -32,7 +32,7 @@ This project features a custom-built **Floating Chat Widget** designed to enhanc
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/sculptor-tech-site.git](https://github.com/YOUR_USERNAME/sculptor-tech-site.git)
+    git clone [https://github.com/SarthakBorude/sculptor-tech-site.git](https://github.com/SarthakBorude/sculptor-tech-site.git)
     ```
 
 2.  **Install dependencies:**
